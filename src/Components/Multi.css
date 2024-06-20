@@ -1,0 +1,91 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding-top: 20px;
+  margin-top: 150px;
+}
+
+.steps-indicator {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative; 
+}
+
+.step-indicator {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  text-align: center;
+  color: white;
+  margin-right: 10px; 
+}
+
+.step-indicator.active {
+  background-color: #3d63cb;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #333;
+  margin-right: 10px; 
+}
+
+.form-step {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%; 
+}
+
+.form-step.active {
+  display: flex;
+}
+
+
+.form-step input,
+.form-step select {
+  margin-top: 30px; 
+}
+
+
+.step1 {
+  position: absolute;
+  left: 0;
+}
+
+.step2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.step3 {
+  position: absolute;
+  right: 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}

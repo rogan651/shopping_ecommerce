@@ -1,0 +1,15 @@
+.userinfo-container{
+    margin: 10% 40% 0 40%;
+    border: 2px solid rgb(95, 95, 95);
+    padding: 10px;
+    border-radius: 10px;
+}
+.userinfo-container h2 i{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5mm;
+}
+.userinfo-container p{
+    font-weight: 600;
+}
